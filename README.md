@@ -16,3 +16,24 @@ Each service exposes the "/" context with a hello world messsage. Each service h
 cd admin-server
 cf push
 ````
+
+### Client A
+````
+cd client-a
+cf push
+````
+
+### Client B
+````
+cd client-b
+cf push
+````
+
+### Client A
+````
+cd client-c
+cf push
+````
+
+## Spring Boot Admin
+To view the Spring Boot Admin page, load [https://spring-admin-service.cfapps.io) in a browser. You should see client-a, client-b and client-c in the admin console page.
