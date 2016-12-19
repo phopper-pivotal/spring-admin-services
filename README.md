@@ -37,3 +37,6 @@ cf push
 
 ## Spring Boot Admin
 To view the Spring Boot Admin page, load [https://spring-admin-server.cfapps.io) in a browser. You should see client-a, client-b and client-c in the admin console page.
+
+## CF Router
+In PCF routes are unique within an organization. Therefore if you get an error on cf push of any service please update <service>/manifest.yml by supplying a unique name for the host attribute. You will also need to update the application.yml file for each client-Z service.
