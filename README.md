@@ -36,4 +36,4 @@ cf push
 ````
 
 ## Spring Boot Admin
-To view the Spring Boot Admin page, load [https://spring-admin-service.cfapps.io) in a browser. You should see client-a, client-b and client-c in the admin console page.
+To view the Spring Boot Admin page, load [https://spring-admin-server.cfapps.io) in a browser. You should see client-a, client-b and client-c in the admin console page.
