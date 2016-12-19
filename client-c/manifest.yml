@@ -1,0 +1,7 @@
+---
+applications:
+- name: client-c
+  memory: 512M
+  instances: 1
+  host: client-c
+  path: ./target/client-c-0.0.1-SNAPSHOT.jar

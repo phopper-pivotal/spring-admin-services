@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-admin-server
+  memory: 512M
+  instances: 1
+  host: spring-admin-server
+  path: ./target/admin-server-0.0.1-SNAPSHOT.jar

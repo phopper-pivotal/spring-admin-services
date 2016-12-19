@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: client-a
+  boot:
+    admin:
+      url: https://spring-admin-server.cfapps.io
+      client:
+         enabled: true
+         health-url: https://client-a.cfapps.io/health
+         management-url: https://client-a.cfapps.io
+         service-url: https://client-a.cfapps.io

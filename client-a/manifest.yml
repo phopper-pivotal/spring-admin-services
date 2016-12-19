@@ -1,0 +1,7 @@
+---
+applications:
+- name: client-a
+  memory: 512M
+  instances: 1
+  host: client-a
+  path: ./target/client-a-0.0.1-SNAPSHOT.jar
