@@ -6,6 +6,6 @@ spring:
       url: https://spring-admin-server.cfapps.io
       client:
          enabled: true
-         health-url: https://client-b.cfapps.io/health
-         management-url: https://client-b.cfapps.io
-         service-url: https://client-b.cfapps.io
+         health-url: http://${vcap.application.uris[0]}/health
+         management-url: http://${vcap.application.uris[0]}
+         service-url: http://${vcap.application.uris[0]}
